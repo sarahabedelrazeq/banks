@@ -77,4 +77,10 @@ main {
   #sidebar {
     display: none;
   }
+  main {
+    padding: 0;
+  }
+  #overview{
+    direction: rtl;
+  }
 }

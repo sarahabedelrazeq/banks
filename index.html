@@ -26,8 +26,8 @@
         var data = event.dataTransfer.getData("text");
         var element = document.getElementById(data);
         console.log("event", event);
-        element.style.top = `${event.offsetY}px`;
-        element.style.left = `${event.offsetX}px`;
+        element.style.top = `${event.y - 40}px`;
+        element.style.left = `${event.x - 40}px`;
       }
     </script>
   </head>
@@ -172,6 +172,28 @@
         </div>
       </section>
     </main>
-    <foot></foot>
+    <footer>
+      <!-- <p id="date_lbl" class="In_cheque" style="top: 1.5cm; left: 1.1cm; width: 100px"
+      > 28/11/2022
+      </p>
+      <p id="Payee_lbl" class="In_cheque" style="top: 2.7cm; left: 1.2cm; width: 530px"
+      > sarah
+      </p>
+      <p id="amount_lbl" class="In_cheque" style="top: 4cm; left: 12.1cm; width: 100px"
+      > #20#
+      </p>
+      <p id="tafk_lbl" class="In_cheque tafk_lbl" style="   top: 3.1cm;   left: 2.1cm;   width: 305px;   line-height: 25px;   direction: rtl; "
+      > فقط عشرون ديناراً أردنياً لا غير
+      </p>
+      <p id="for_lbl" class="In_cheque" style="top: 4.2cm; left: 1.2cm; width: 330px; font-size: 17px"
+      > test
+      </p>
+      <p id="crossing_lbl" class="In_cheque crossing_lbl_horizontal" draggable="false" style="display: block"
+      > يصرف للمستفيد الأول
+      </p>
+      <p id="amount2_lbl" class="In_cheque" style="top: 4cm; left: 15cm; width: 40px; display: block"
+      > 000
+      </p> -->
+    </footer>
   </body>
 </html>
