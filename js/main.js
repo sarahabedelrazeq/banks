@@ -1,6 +1,16 @@
+const countries = await fetch("../data/countries.json").then((response) => {
+  if (!response.ok) {
+    throw new Error("HTTP error " + response.status);
+  }
+  return response.json();
+});
 
-const countries = require("../data/countries.json");
-const backs = require("../data/backs.json");
+const backs = await fetch("../data/backs.json").then((response) => {
+  if (!response.ok) {
+    throw new Error("HTTP error " + response.status);
+  }
+  return response.json();
+});
 
 const items = [
   "date_lbl",
@@ -19,6 +29,7 @@ const items = [
 ];
 
 
+
 const main = async () => {
   const overview = document.getElementById("overview");
   let selectedBank, component;
@@ -34,19 +45,15 @@ const main = async () => {
   if (selectedBank) {
     overview.innerHTML += `<img src=${selectedBank.image} id="cheque_img" alt="Cheque img" draggable="false" >`;
 
-    items.map(
-      (item, index) =>
-        selectedBank[item] &&
-        selectedBank[item].style &&
-        `<p
-            id=${item}
-            className="In_cheque"
-            style=${selectedBank[item].style}
-            key=${index}
-          >
-            28/11/2022
-          </p>`
-    );
+    items.forEach((item) => {
+      if(selectedBank[item]?.style){
+        for (const key in selectedBank[item]?.style) {
+          document.getElementById(item).style[key] = selectedBank[item]?.style[key];
+
+        }
+
+      }
+    });
   }
 };
 
