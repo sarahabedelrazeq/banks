@@ -1,3 +1,7 @@
+
+const countries = require("../data/countries.json");
+const backs = require("../data/backs.json");
+
 const items = [
   "date_lbl",
   "payee_lbl",
@@ -14,9 +18,8 @@ const items = [
   "Due_date_lbl",
 ];
 
+
 const main = async () => {
-  const countries = require("../data/countries.json");
-  const backs = require("../data/backs.json");
   const overview = document.getElementById("overview");
   let selectedBank, component;
 
