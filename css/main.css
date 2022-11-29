@@ -77,16 +77,24 @@ main {
 }
 
 @media print {
+  html {
+    direction: ltr;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  main {
+    padding: 0;
+  }
+  @page {
+    margin: 0;
+    padding: 0;
+  }
   #cheque_img {
     opacity: 0;
   }
   #sidebar {
     display: none;
-  }
-  main {
-    padding: 0;
-  }
-  #overview {
-    direction: rtl;
   }
 }
