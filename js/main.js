@@ -28,11 +28,9 @@ const items = [
   "Due_date_lbl",
 ];
 
-
-
 const main = async () => {
   const overview = document.getElementById("overview");
-  let selectedBank, component;
+  let selectedBank;
 
   if (countries.length > 0) {
     const country = countries[0];
@@ -46,12 +44,11 @@ const main = async () => {
     overview.innerHTML += `<img src=${selectedBank.image} id="cheque_img" alt="Cheque img" draggable="false" >`;
 
     items.forEach((item) => {
-      if(selectedBank[item]?.style){
+      if (selectedBank[item]?.style) {
         for (const key in selectedBank[item]?.style) {
-          document.getElementById(item).style[key] = selectedBank[item]?.style[key];
-
+          document.getElementById(item).style[key] =
+            selectedBank[item]?.style[key];
         }
-
       }
     });
   }

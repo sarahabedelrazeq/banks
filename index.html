@@ -5,31 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script type="module" src="./js/main.js"></script>
+    <script src="./js/fuctions.js"></script>
     <link rel="stylesheet" type="text/css" href="./css/main.css" />
     <title>Document</title>
-    <script>
-      const onChange = (id, event) => {
-        const item = document.getElementById(id);
-        item.innerHTML = event.value;
-        console.log("first", id, event.value);
-      };
-      const allowDrop = (event) => {
-        event.preventDefault();
-      };
-
-      function drag(event) {
-        event.dataTransfer.setData("text", event.target.id);
-      }
-
-      function drop(event) {
-        event.preventDefault();
-        var data = event.dataTransfer.getData("text");
-        var element = document.getElementById(data);
-        console.log("event", event);
-        element.style.top = `${event.y - 40}px`;
-        element.style.left = `${event.x - 40}px`;
-      }
-    </script>
   </head>
   <body>
     <header></header>
@@ -42,7 +20,10 @@
                 <label>تاريخ الشيك</label>
               </div>
               <div class="sidebar-input">
-                <input onchange="onChange('date_lbl', this)" />
+                <input
+                  type="date"
+                  onchange="onChange('date_lbl', this, 'date')"
+                />
               </div>
             </div>
             <div class="sidebar-item">
@@ -63,6 +44,14 @@
             </div>
             <div class="sidebar-item">
               <div class="sidebar-label">
+                <label>المبلغ نصا</label>
+              </div>
+              <div class="sidebar-input">
+                <input onchange="onChange('tafk_lbl', this)" />
+              </div>
+            </div>
+            <div class="sidebar-item">
+              <div class="sidebar-label">
                 <label>وذلك لقاء</label>
               </div>
               <div class="sidebar-input">
@@ -74,7 +63,34 @@
                 <label>التسطير</label>
               </div>
               <div class="sidebar-input">
-                <input onchange="onChange('crossing_lbl', this)" />
+                <input
+                  onchange="onChange('crossing_lbl', this)"
+                  id="crossing"
+                  list="crossing_list"
+                  class="crossing entr_fld"
+                  name="crossing"
+                  title="يمكن كتابة اي عبارة ضمن هذا الحقل لتظهر في التسطير"
+                />
+                <datalist id="crossing_list">
+                  <option
+                    ar_cross="/ /"
+                    en_cross="/ /"
+                    fr_cross="/ /"
+                    value="/ /"
+                  ></option>
+                  <option
+                    ar_cross="يصرف للمستفيد الأول"
+                    en_cross="A/c Payee"
+                    fr_cross="A/c Payee"
+                    value="يصرف للمستفيد الأول"
+                  ></option>
+                  <option
+                    ar_cross="غير قابل للتداول"
+                    en_cross="Not Negotiable"
+                    fr_cross="Non Endossable"
+                    value="غير قابل للتداول"
+                  ></option>
+                </datalist>
               </div>
             </div>
             <div class="sidebar-item">
@@ -87,9 +103,7 @@
               class="label crossing_lbl_horizontal"
               draggable="true"
               ondragstart="drag(event)"
-            >
-              غير قابل للتداول
-            </p>
+            ></p>
             <p
               id="date_lbl"
               class="label"
@@ -195,5 +209,50 @@
       > 000
       </p> -->
     </footer>
+    <script>
+      let currentDroppable = null;
+      let ball = document.getElementById("crossing_lbl");
+
+      ball.onmousedown = function (event) {
+        console.log("event", event);
+        let shiftX = event.clientX - ball.getBoundingClientRect().left;
+        let shiftY = event.clientY - ball.getBoundingClientRect().top;
+
+        ball.style.position = "absolute";
+        ball.style.zIndex = 1000;
+        document.body.append(ball);
+
+        moveAt(event.pageX, event.pageY);
+
+        function moveAt(pageX, pageY) {
+          ball.style.left = pageX - shiftX + "px";
+          ball.style.top = pageY - shiftY + "px";
+        }
+
+        function onMouseMove(event) {
+          moveAt(event.pageX, event.pageY);
+
+          ball.hidden = true;
+          let elemBelow = document.elementFromPoint(
+            event.clientX,
+            event.clientY
+          );
+          ball.hidden = false;
+
+          if (!elemBelow) return;
+        }
+
+        document.addEventListener("mousemove", onMouseMove);
+
+        ball.onmouseup = function () {
+          document.removeEventListener("mousemove", onMouseMove);
+          ball.onmouseup = null;
+        };
+      };
+
+      ball.ondragstart = function () {
+        return false;
+      };
+    </script>
   </body>
 </html>

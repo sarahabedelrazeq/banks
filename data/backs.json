@@ -13,7 +13,7 @@
       "style": { "top": "4cm", "left": "12.1cm", "width": "100px" }
     },
     "tafk_lbl": {
-      "style": { "top": "3.1cm", "left": "2.1cm", "width": "305px" }
+      "style": { "top": "3.5cm", "left": "2.1cm", "width": "305px" }
     },
     "for_lbl": {
       "style": {
@@ -25,10 +25,12 @@
     },
 
     "amount2_lbl": {
-      "top": "4cm",
-      "left": "15cm",
-      "width": "40px",
-      "display": "block"
+      "style": {
+        "top": "4cm",
+        "left": "15cm",
+        "width": "40px",
+        "display": "block"
+      }
     },
     "image": "./images/checks/jor-all.jpg",
     "country_id": 1
