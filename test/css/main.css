@@ -4,6 +4,7 @@ body {
 
 #overview {
   position: relative;
+  height: fit-content;
 }
 
 .label {
@@ -11,6 +12,8 @@ body {
   cursor: move;
   font-size: 18px;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 p {
   margin: 0;
@@ -26,7 +29,7 @@ p {
   font-weight: bold;
   z-index: 300;
   top: 63px;
-  left: 6.4cm;
+  left: 243px;
   transform: rotate(0deg);
 }
 
@@ -43,7 +46,6 @@ body {
 main {
   padding: 40px;
 }
-
 #sidebar {
   width: 200px;
   max-width: 100%;

@@ -16,19 +16,3 @@ const onChange = (id, event, type) => {
   }
 };
 
-// const allowDrop = (event) => {
-//   event.preventDefault();
-// };
-
-// function drag(event) {
-//   event.dataTransfer.setData("text", event.target.id);
-// }
-
-// function drop(event) {
-//   event.preventDefault();
-//   var rect = event.target.getBoundingClientRect();
-//   var data = event.dataTransfer.getData("text");
-//   var element = document.getElementById(data);
-//   element.style.top = `${event.pageY - rect.top}px`;
-//   element.style.left = `${event.pageX - rect.left}px`;
-// }

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .droptarget-container {
+        display: grid;
+        grid-template-columns: repeat(10, calc(100% / 10));
+      }
+
+      .droptarget {
+        height: 100px;
+        margin: 15px;
+        padding: 10px;
+        border: 1px solid #aaaaaa;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #dragtarget {
+        margin: 0;
+      }
+
+      #mycanvas {
+        border: 1px solid #000;
+      }
+    </style>
+  </head>
+
+  <body>
+    <canvas id="mycanvas" width="800px" height="400px"> </canvas>
+    <script>
+      const canvas = document.getElementById("mycanvas");
+      const context = canvas.getContext("2d");
+      var image = new Image();
+      image.src = "https://live.staticflickr.com/47/150654741_ae02588670_b.jpg";
+      image.onload = function () {
+        //      drawImage(image, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight);
+        context.drawImage(image, 100, 100, 800, 400, 0, 0, 800, 400);
+      };
+    </script>
+  </body>
+</html>
+
+<!-- <body>
+    <div class="droptarget-container">
+      <div class="droptarget">
+        <p draggable="true" id="dragtarget1">Drag me!</p>
+      </div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget">
+        <p draggable="true" id="dragtarget2">Drag me 2!</p>
+      </div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget">
+        <p draggable="true" id="dragtarget3">Drag me 3!</p>
+      </div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget">
+        <p draggable="true" id="dragtarget4">Drag me 4!</p>
+      </div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+
+      <div class="droptarget"></div>
+    </div>
+
+    <script>
+      document.addEventListener("dragstart", function (event) {
+        event.dataTransfer.setData("Text", event.target.id);
+        if (event.target.style) event.target.style.opacity = "0.4";
+      });
+
+      document.addEventListener("drag", function (event) {});
+
+      document.addEventListener("dragend", function (event) {
+        if (event.target.style) event.target.style.opacity = "1";
+      });
+
+      document.addEventListener("dragenter", function (event) {
+        if (event.target.className == "droptarget") {
+          if (event.target.style) event.target.style.border = "3px dotted red";
+        }
+      });
+
+      document.addEventListener("dragover", function (event) {
+        event.preventDefault();
+      });
+
+      document.addEventListener("dragleave", function (event) {
+        if (event.target.className == "droptarget") {
+          if (event.target.style) event.target.style.border = "";
+        }
+      });
+
+      document.addEventListener("drop", function (event) {
+        event.preventDefault();
+        if (event.target.className == "droptarget") {
+          if (event.target.style) event.target.style.border = "";
+          var data = event.dataTransfer.getData("Text");
+          if (document.getElementById(data))
+            event.target.appendChild(document.getElementById(data));
+        }
+      });
+    </script>
+  </body> -->

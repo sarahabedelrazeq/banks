@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="./js/main.js"></script>
+    <script src="./js/fuctions.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section>
+        <div class="cheque-container">
+          <div id="sidebar">
+            <div class="sidebar-item">
+              <div class="sidebar-label">
+                <label>تاريخ الشيك</label>
+              </div>
+              <div class="sidebar-input">
+                <input
+                  type="date"
+                  onchange="onChange('date_lbl', this, 'date')"
+                />
+              </div>
+            </div>
+            <div class="sidebar-item">
+              <div class="sidebar-label">
+                <label>اسم المستفيد</label>
+              </div>
+              <div class="sidebar-input">
+                <input onchange="onChange('payee_lbl', this)" />
+              </div>
+            </div>
+            <div class="sidebar-item">
+              <div class="sidebar-label">
+                <label>المبلغ</label>
+              </div>
+              <div class="sidebar-input">
+                <input onchange="onChange('amount_lbl', this)" />
+              </div>
+            </div>
+            <div class="sidebar-item">
+              <div class="sidebar-label">
+                <label>المبلغ نصا</label>
+              </div>
+              <div class="sidebar-input">
+                <input onchange="onChange('tafk_lbl', this)" />
+              </div>
+            </div>
+            <div class="sidebar-item">
+              <div class="sidebar-label">
+                <label>وذلك لقاء</label>
+              </div>
+              <div class="sidebar-input">
+                <input onchange="onChange('for_lbl', this)" />
+              </div>
+            </div>
+            <div class="sidebar-item">
+              <div class="sidebar-label">
+                <label>التسطير</label>
+              </div>
+              <div class="sidebar-input">
+                <input
+                  onchange="onChange('crossing_lbl', this)"
+                  id="crossing"
+                  list="crossing_list"
+                  class="crossing entr_fld"
+                  name="crossing"
+                  title="يمكن كتابة اي عبارة ضمن هذا الحقل لتظهر في التسطير"
+                />
+                <datalist id="crossing_list">
+                  <option
+                    ar_cross="/ /"
+                    en_cross="/ /"
+                    fr_cross="/ /"
+                    value="/ /"
+                  ></option>
+                  <option
+                    ar_cross="يصرف للمستفيد الأول"
+                    en_cross="A/c Payee"
+                    fr_cross="A/c Payee"
+                    value="يصرف للمستفيد الأول"
+                  ></option>
+                  <option
+                    ar_cross="غير قابل للتداول"
+                    en_cross="Not Negotiable"
+                    fr_cross="Non Endossable"
+                    value="غير قابل للتداول"
+                  ></option>
+                </datalist>
+              </div>
+            </div>
+            <div class="sidebar-item">
+              <button class="print-btn" onclick="window.print()">print</button>
+            </div>
+          </div>
+          <div id="overview">
+            <p
+              id="crossing_lbl"
+              class="label crossing_lbl_horizontal"
+              draggable="true"
+            ></p>
+            <p id="date_lbl" class="label" draggable="true"></p>
+            <p id="payee_lbl" class="label" draggable="true"></p>
+            <p id="amount_lbl" class="label" draggable="true"></p>
+            <p id="tafk_lbl" class="label" draggable="true"></p>
+            <p id="for_lbl" class="label" draggable="true"></p>
+            <p id="crossing_lbl" class="label" draggable="true"></p>
+            <p id="amount2_lbl" class="label" draggable="true"></p>
+            <p id="place_lbl" class="label" draggable="true"></p>
+            <p id="cur_lbl" class="label" draggable="true"></p>
+            <p id="acc_num_lbl" class="label" draggable="true"></p>
+            <p id="sign_name_lbl" class="label" draggable="true"></p>
+            <p id="seb_date_lbl" class="label" draggable="true"></p>
+            <p id="Due_date_lbl" class="label" draggable="true"></p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
