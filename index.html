@@ -1864,6 +1864,22 @@
             maxlength="12"
             style="width: 170px"
           />
+          <script>
+            function myFunction(event) {
+              document.getElementById("tafk_lbl").innerHTML= event.value
+              console.log(event.value)
+}
+          </script>
+
+          <input
+            type="text"
+            name="chq_amount_char"
+            id="chq_amount_char"
+            class="chq_amount entr_fld"
+            oninput="myFunction(this)"
+
+            style="width: 170px"
+          />
         </div>
 
         <div
@@ -3197,7 +3213,6 @@
               amount1 == "-" ||
               amount1 < 0
             ) {
-              document.getElementById("tafk_lbl").innerHTML = "";
             } else {
               var PageLang = document.getElementById("page_lang").value;
               var Tafk = document.getElementById("tafk_lbl");
@@ -3233,7 +3248,6 @@
                     if (tafqeet_sur == "hash_taf_sur") {
                       all_en_taf = "#" + all_en_taf + "#";
                     }
-                    document.getElementById("tafk_lbl").innerHTML = all_en_taf;
                     Tafk.style.direction = "ltr";
                   } else {
                     if (Fraction == "normal") {
@@ -3304,7 +3318,6 @@
                     if (tafqeet_sur == "hash_taf_sur") {
                       all_en_taf = "#" + all_en_taf + "#";
                     }
-                    document.getElementById("tafk_lbl").innerHTML = all_en_taf;
                     Tafk.style.direction = "ltr";
                   }
                   var en_cur4 = $("#currency").find(":selected").attr("value");
@@ -3326,7 +3339,6 @@
                     if (tafqeet_sur == "hash_taf_sur") {
                       all_fr_taf = "#" + all_fr_taf + "#";
                     }
-                    document.getElementById("tafk_lbl").innerHTML = all_fr_taf;
                     Tafk.style.direction = "ltr";
                   } else {
                     if (Fraction == "normal") {
@@ -3369,7 +3381,6 @@
                     if (tafqeet_sur == "hash_taf_sur") {
                       all_fr_taf = "#" + all_fr_taf + "#";
                     }
-                    document.getElementById("tafk_lbl").innerHTML = all_fr_taf;
                     Tafk.style.direction = "ltr";
                   }
                   var en_cur4 = $("#currency").find(":selected").attr("value");
@@ -3453,7 +3464,6 @@
                   if (tafqeet_sur == "hash_taf_sur") {
                     all_ar_taf = "#" + all_ar_taf + "#";
                   }
-                  document.getElementById("tafk_lbl").innerHTML = all_ar_taf;
                   var en_cur4 = $("#currency").find(":selected").attr("value");
                   document.getElementById("cur_lbl").innerHTML = en_cur4;
                   break;
@@ -5563,11 +5573,7 @@
                 .innerHTML.replace(/\d(?=[^<>]*(<|$))/g, function ($0) {
                   return map[$0];
                 });
-              document.getElementById("tafk_lbl").innerHTML = document
-                .getElementById("tafk_lbl")
-                .innerHTML.replace(/\d(?=[^<>]*(<|$))/g, function ($0) {
-                  return map[$0];
-                });
+
             }
           }
 
