@@ -1,0 +1,1601 @@
+[
+  {
+    "id": 1,
+    "en_name": "Jordan",
+    "ar_name": "الأردن",
+    "banks": [
+      {
+        "id": 1,
+        "slug": "JOR_ALL",
+        "en_name": "Jordan-All Banks",
+        "ar_name": "الأردن-نموذج عام"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "en_name": "Palestine",
+    "ar_name": "فلسطين",
+    "banks": [
+      {
+        "id": 1,
+        "slug": "ARAB-P",
+        "en_name": "Arab Bank Palestine",
+        "ar_name": "البنك العربي فلسطين"
+      },
+      {
+        "id": 2,
+        "slug": "pib",
+        "en_name": "Palestine Investment Bank",
+        "ar_name": "بنك الاستثمار الفلسطيني"
+      },
+      {
+        "id": 3,
+        "slug": "jcb",
+        "en_name": "Jordan Commercial Bank",
+        "ar_name": "البنك التجاري الأردني"
+      },
+      {
+        "id": 4,
+        "slug": "cab",
+        "en_name": "Cairo Amman Bank",
+        "ar_name": "بنك القاهرة عمان"
+      },
+      {
+        "id": 5,
+        "slug": "pisb",
+        "en_name": "Palestine Islamic Bank",
+        "ar_name": "البنك الاسلامي الفلسطيني"
+      },
+      {
+        "id": 6,
+        "slug": "tnb",
+        "en_name": "The National Bank",
+        "ar_name": "البنك الوطني"
+      },
+      {
+        "id": 7,
+        "slug": "pls",
+        "en_name": "Bank Of Palestine",
+        "ar_name": "بنك فلسطين"
+      },
+      {
+        "id": 8,
+        "slug": "quds",
+        "en_name": "Quds Bank",
+        "ar_name": "بنك القدس"
+      },
+      {
+        "id": 9,
+        "slug": "inb",
+        "en_name": "Islamic national Bank",
+        "ar_name": "البنك الوطني الاسلامي"
+      },
+      {
+        "id": 10,
+        "slug": "iskan",
+        "en_name": "Housing Bank",
+        "ar_name": "بنك الاسكان"
+      },
+      {
+        "id": 11,
+        "slug": "aibp",
+        "en_name": "Arab Islamic Bank",
+        "ar_name": "البنك الاسلامي العربي"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "en_name": "UAE",
+    "ar_name": "الإمارات",
+    "banks": [
+      {
+        "id": 1,
+        "slug": "ADIB",
+        "en_name": "Abu Dhabi Islamic bank",
+        "ar_name": "مصرف أبو ظبي الاسلامي"
+      },
+      {
+        "id": 2,
+        "slug": "DIB",
+        "en_name": "Dubai Islamic bank",
+        "ar_name": "بنك دبي الاسلامي"
+      },
+      {
+        "id": 3,
+        "slug": "fad",
+        "en_name": "Firsf Abu Dhabi bank",
+        "ar_name": "بنك أبو ظبي الأول"
+      },
+      {
+        "id": 4,
+        "slug": "Shib",
+        "en_name": "Sharjah Islamic bank",
+        "ar_name": "مصرف الشارقة الاسلامي"
+      },
+      {
+        "id": 5,
+        "slug": "Shib2",
+        "en_name": "Sharjah Islamic bank2",
+        "ar_name": "مصرف الشارقة الاسلامي2"
+      },
+      {
+        "id": 6,
+        "slug": "rak",
+        "en_name": "Rak bank",
+        "ar_name": "بنك رأس الخيمة الوطني"
+      },
+      {
+        "id": 7,
+        "slug": "adcb",
+        "en_name": "ADCB bank",
+        "ar_name": "بنك أبو ظبي التجاري"
+      },
+      {
+        "id": 8,
+        "slug": "adcb3",
+        "en_name": "ADCB bank3",
+        "ar_name": "بنك أبو ظبي التجاري2"
+      },
+      {
+        "id": 9,
+        "slug": "cbd",
+        "en_name": "Commercial Bank of Dubai",
+        "ar_name": "بنك دبي التجاري"
+      },
+      {
+        "id": 10,
+        "slug": "nbd2",
+        "en_name": "Emirates NBD",
+        "ar_name": "بنك الإمارات دبي الوطني"
+      },
+      {
+        "id": 11,
+        "slug": "eib",
+        "en_name": "Emirates Eslamic",
+        "ar_name": "الإمارات الإسلامي"
+      },
+      {
+        "id": 12,
+        "slug": "eib2",
+        "en_name": "Emirates Eslamic2",
+        "ar_name": "الإمارات الإسلامي2"
+      },
+      {
+        "id": 13,
+        "slug": "nbf",
+        "en_name": "National Bank of Fujairah",
+        "ar_name": "بنك فجيرة الوطني"
+      },
+      {
+        "id": 14,
+        "slug": "mash",
+        "en_name": "Mashreq Bank",
+        "ar_name": "بنك المشرق"
+      },
+      {
+        "id": 15,
+        "slug": "mash2",
+        "en_name": "Mashreq Gold Bank",
+        "ar_name": "المشرق الذهبي"
+      },
+      {
+        "id": 16,
+        "slug": "mash3",
+        "en_name": "Mashreq Bank Business",
+        "ar_name": "بنك المشرق-أعمال"
+      },
+      {
+        "id": 17,
+        "slug": "ubl",
+        "en_name": "United Bank",
+        "ar_name": "يونايتد بنك"
+      },
+      {
+        "id": 18,
+        "slug": "invs",
+        "en_name": "Invest Bank",
+        "ar_name": "بنك الاستثمار"
+      },
+      {
+        "id": 19,
+        "slug": "hilal",
+        "en_name": "al Hilal Bank",
+        "ar_name": "مصرف الهلال"
+      },
+      {
+        "id": 20,
+        "slug": "shar",
+        "en_name": "Bank Of Sharjah",
+        "ar_name": "بنك الشارقة"
+      },
+      {
+        "id": 21,
+        "slug": "nile",
+        "en_name": "El Nilein Bank",
+        "ar_name": "بنك النيلين"
+      },
+      {
+        "id": 22,
+        "slug": "nbq",
+        "en_name": "Umm Al Qaiwain Bank",
+        "ar_name": "بنك أم القيوين"
+      },
+      {
+        "id": 23,
+        "slug": "misr2",
+        "en_name": "Banque MISR",
+        "ar_name": "بنك مصر"
+      },
+      {
+        "id": 24,
+        "slug": "ajmn",
+        "en_name": "Ajman Bank",
+        "ar_name": "مصرف عجمان"
+      },
+      {
+        "id": 25,
+        "slug": "arab4",
+        "en_name": "Arab Bank",
+        "ar_name": "البنك العربي"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "en_name": "KSA",
+    "ar_name": "السعودية",
+    "banks": [
+      {
+        "id": 1,
+        "slug": "NCB-Tajir",
+        "en_name": "Al Ahli bank-company",
+        "ar_name": "البنك الاهلي-شركات"
+      },
+      {
+        "id": 2,
+        "slug": "NCB-wessam",
+        "en_name": "Al Ahli bank-personal",
+        "ar_name": "البنك الاهلي-افراد"
+      },
+      {
+        "id": 3,
+        "slug": "NCB3",
+        "en_name": "Al Ahli bank 2",
+        "ar_name": "البنك الاهلي 2"
+      },
+      {
+        "id": 4,
+        "slug": "snb",
+        "en_name": "The Saudi National Bank",
+        "ar_name": "البنك الاهلي السعودي-أعمال"
+      },
+      {
+        "id": 5,
+        "slug": "riyad",
+        "en_name": "Riyad bank",
+        "ar_name": "بنك الرياض"
+      },
+      {
+        "id": 6,
+        "slug": "riyad2",
+        "en_name": "Riyad bank2",
+        "ar_name": "بنك الرياض2"
+      },
+      {
+        "id": 7,
+        "slug": "SABB",
+        "en_name": "SABB",
+        "ar_name": "البنك السعودي البريطاني"
+      },
+      {
+        "id": 8,
+        "slug": "SABB2",
+        "en_name": "SABB2",
+        "ar_name": "البنك السعودي البريطاني2"
+      },
+      {
+        "id": 9,
+        "slug": "rajhi",
+        "en_name": "Al Rajhi Bank-company",
+        "ar_name": "مصرف الراجحي-شركات"
+      },
+      {
+        "id": 10,
+        "slug": "rajhi2",
+        "en_name": "Al Rajhi Bank2",
+        "ar_name": "مصرف الراجحي2"
+      },
+      {
+        "id": 11,
+        "slug": "rajhi3",
+        "en_name": "Al Rajhi Bank3",
+        "ar_name": "مصرف الراجحي3"
+      },
+      {
+        "id": 12,
+        "slug": "rajhi4",
+        "en_name": "Al Rajhi Bank4",
+        "ar_name": "مصرف الراجحي-تميز"
+      },
+      {
+        "id": 13,
+        "slug": "rajhi5",
+        "en_name": "Al Rajhi Bank5",
+        "ar_name": "مصرف الراجحي5"
+      },
+      {
+        "id": 14,
+        "slug": "alinma",
+        "en_name": "Alinma Bank",
+        "ar_name": "مصرف الإنماء"
+      },
+      {
+        "id": 15,
+        "slug": "alinma2",
+        "en_name": "Alinma Bank2",
+        "ar_name": "مصرف الإنماء 2"
+      },
+      {
+        "id": 16,
+        "slug": "alinma3",
+        "en_name": "Alinma Bank3",
+        "ar_name": "مصرف الإنماء 3"
+      },
+      {
+        "id": 17,
+        "slug": "alinma4",
+        "en_name": "Alinma Bank4",
+        "ar_name": "مصرف الإنماء 4"
+      },
+      {
+        "id": 18,
+        "slug": "jzra",
+        "en_name": "Aljazira Bank",
+        "ar_name": "بنك الجزيرة"
+      },
+      {
+        "id": 19,
+        "slug": "jzra2",
+        "en_name": "Aljazira Bank2",
+        "ar_name": "بنك الجزيرة 2"
+      },
+      {
+        "id": 20,
+        "slug": "safr",
+        "en_name": "Banque Saudi Fransi",
+        "ar_name": "البنك السعودي الفرنسي"
+      },
+      {
+        "id": 21,
+        "slug": "awal",
+        "en_name": "Alawal Bank",
+        "ar_name": "البنك الأول"
+      },
+      {
+        "id": 22,
+        "slug": "anb",
+        "en_name": "Arab National Bank",
+        "ar_name": "البنك العربي الوطني"
+      },
+      {
+        "id": 23,
+        "slug": "blad",
+        "en_name": "Bank Albilad",
+        "ar_name": "بنك البلاد"
+      },
+      {
+        "id": 24,
+        "slug": "samba",
+        "en_name": "Samba Financial Group",
+        "ar_name": "مجموعة سامبا المالية"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "en_name": "Egypt",
+    "ar_name": "مصر",
+    "banks": [
+      {
+        "id": 1,
+        "slug": "NBE",
+        "en_name": "National bank of egypt",
+        "ar_name": "البنك الأهلي المصري"
+      },
+      {
+        "id": 2,
+        "slug": "CIB",
+        "en_name": "Commercial International Bank",
+        "ar_name": "البنك التجاري الدولي"
+      },
+      {
+        "id": 3,
+        "slug": "QNB",
+        "en_name": "Qatar National Bank",
+        "ar_name": "بنك قطر الوطني"
+      },
+      {
+        "id": 4,
+        "slug": "qnb3",
+        "en_name": "Qatar National Bank Alahli",
+        "ar_name": "بنك قطر الوطني الأهلي"
+      },
+      {
+        "id": 5,
+        "slug": "UNB",
+        "en_name": "Union National Bank",
+        "ar_name": "بنك الاتحاد الوطني"
+      },
+      {
+        "id": 6,
+        "slug": "AUB",
+        "en_name": "Ahli United Bank",
+        "ar_name": "البنك الأهلي المتحد"
+      },
+      {
+        "id": 7,
+        "slug": "EBE",
+        "en_name": "Export Development Bank",
+        "ar_name": "البنك المصري لتنمية الصادرات"
+      },
+      {
+        "id": 8,
+        "slug": "AAIB",
+        "en_name": "Arab African international Bank",
+        "ar_name": "البنك العربي الافريقي الدولي"
+      },
+      {
+        "id": 9,
+        "slug": "HSBC",
+        "en_name": "HSBC bank",
+        "ar_name": "بنك إتش اس بي سي"
+      },
+      {
+        "id": 10,
+        "slug": "MISR",
+        "en_name": "Banque MISR",
+        "ar_name": "بنك مصر"
+      },
+      {
+        "id": 11,
+        "slug": "BOC",
+        "en_name": "Banque du Caire",
+        "ar_name": "بنك القاهرة"
+      },
+      {
+        "id": 12,
+        "slug": "BOC2",
+        "en_name": "Banque du Caire 2",
+        "ar_name": "بنك القاهرة2"
+      },
+      {
+        "id": 13,
+        "slug": "NBD",
+        "en_name": "Emirates NBD",
+        "ar_name": "بنك الإمارات دبي الوطني"
+      },
+      {
+        "id": 14,
+        "slug": "audi",
+        "en_name": "Bank Audi Eg",
+        "ar_name": "بنك عودة - مصر"
+      },
+      {
+        "id": 15,
+        "slug": "brka",
+        "en_name": "Al Baraka Eg Bank",
+        "ar_name": "بنك البركة - مصر"
+      },
+      {
+        "id": 16,
+        "slug": "brka2",
+        "en_name": "Al Baraka Eg Bank2",
+        "ar_name": "بنك البركة 2 - مصر"
+      },
+      {
+        "id": 17,
+        "slug": "wafa",
+        "en_name": "Attijariwafa Bank",
+        "ar_name": "بنك التجاري وفا"
+      },
+      {
+        "id": 18,
+        "slug": "nbk",
+        "en_name": "National Kuwait Bank",
+        "ar_name": "بنك الكويت الوطني"
+      },
+      {
+        "id": 19,
+        "slug": "blom",
+        "en_name": "Blom Bank Egypt",
+        "ar_name": "بنك بلوم مصر"
+      },
+      {
+        "id": 20,
+        "slug": "alex",
+        "en_name": "Alex Bank",
+        "ar_name": "بنك الاسكندرية"
+      },
+      {
+        "id": 21,
+        "slug": "alex2",
+        "en_name": "Alex Bank 2",
+        "ar_name": "بنك الاسكندرية 2"
+      },
+      {
+        "id": 22,
+        "slug": "arg",
+        "en_name": "Agricole Egypt",
+        "ar_name": "كريدي أجريكول"
+      },
+      {
+        "id": 23,
+        "slug": "egb",
+        "en_name": "Egyptian Gulf Bank",
+        "ar_name": "البنك المصري الخليجي"
+      },
+      {
+        "id": 24,
+        "slug": "utb",
+        "en_name": "The United Bank",
+        "ar_name": "المصرف المتحد"
+      },
+      {
+        "id": 25,
+        "slug": "arbib",
+        "en_name": "Arab Investment Bank",
+        "ar_name": "بنك الاستثمار العربي"
+      },
+      {
+        "id": 26,
+        "slug": "scb",
+        "en_name": "Suez Canal Bank",
+        "ar_name": "بنك قناة السويس"
+      },
+      {
+        "id": 27,
+        "slug": "scb2",
+        "en_name": "Suez Canal Bank2",
+        "ar_name": "بنك قناة السويس2"
+      },
+      {
+        "id": 28,
+        "slug": "saib",
+        "en_name": "SAIB Bank",
+        "ar_name": "بنك الشركة المصرفية العربية"
+      },
+      {
+        "id": 29,
+        "slug": "saib2",
+        "en_name": "SAIB Bank 2",
+        "ar_name": "بنك الشركة المصرفية العربية 2"
+      },
+      {
+        "id": 30,
+        "slug": "fib",
+        "en_name": "Faisal Islamic Bank",
+        "ar_name": "بنك فيصل الاسلامي المصري"
+      },
+      {
+        "id": 31,
+        "slug": "adib2",
+        "en_name": "Abu Dhabi Islamic Bank",
+        "ar_name": "مصرف أبو ظبي الاسلامي"
+      },
+      {
+        "id": 32,
+        "slug": "arab2",
+        "en_name": "Arab Bank",
+        "ar_name": "البنك العربي"
+      },
+      {
+        "id": 33,
+        "slug": "fab2",
+        "en_name": "First Abu Dhabi Bank",
+        "ar_name": "بنك أبو ظبي الأول"
+      },
+      {
+        "id": 34,
+        "slug": "fab3",
+        "en_name": "First Abu Dhabi Bank 2",
+        "ar_name": "بنك أبو ظبي الأول 2"
+      },
+      {
+        "id": 35,
+        "slug": "fab4",
+        "en_name": "First Abu Dhabi Bank 3",
+        "ar_name": "بنك أبو ظبي الأول 3"
+      },
+      {
+        "id": 36,
+        "slug": "pirs",
+        "en_name": "Piraeus Bank",
+        "ar_name": "بنك بيريوس مصر"
+      },
+      {
+        "id": 37,
+        "slug": "hdb",
+        "en_name": "Housing & Development Bank",
+        "ar_name": "بنك التعمير والاسكان"
+      },
+      {
+        "id": 38,
+        "slug": "idw",
+        "en_name": "Industrial Development Bank",
+        "ar_name": "بنك التنمية الصناعية"
+      },
+      { "id": 39, "slug": "mid", "en_name": "MID Bank", "ar_name": "ميد بنك" },
+      {
+        "id": 40,
+        "slug": "adcb2",
+        "en_name": "ADCB Bank",
+        "ar_name": "بنك أبو ظبي التجاري"
+      },
+      {
+        "id": 41,
+        "slug": "abk2",
+        "en_name": "Alahli Bank of Kuwait",
+        "ar_name": "البنك الأهلي الكويتي"
+      },
+      {
+        "id": 42,
+        "slug": "abc",
+        "en_name": "ABC Bank",
+        "ar_name": "المؤسسة العربية المصرفية"
+      },
+      {
+        "id": 43,
+        "slug": "arib",
+        "en_name": "Arab Investment Bank",
+        "ar_name": "بنك الاسثمار - أفراد"
+      },
+      {
+        "id": 44,
+        "slug": "ealb",
+        "en_name": "Egyption Arab Land Bank",
+        "ar_name": "البنك العقاري المصري العربي"
+      },
+      {
+        "id": 45,
+        "slug": "abe",
+        "en_name": "Agricultural Bank of Egypt",
+        "ar_name": "البنك الزراعي المصري"
+      },
+      {
+        "id": 46,
+        "slug": "nbg",
+        "en_name": "NBG Bank",
+        "ar_name": "البنك الأهلي اليوناني"
+      },
+      {
+        "id": 47,
+        "slug": "mash4",
+        "en_name": "Mashreq Bank",
+        "ar_name": "بنك المشرق"
+      },
+      {
+        "id": 48,
+        "slug": "aib",
+        "en_name": "Arab International Bank",
+        "ar_name": "المصرف العربي الدولي"
+      },
+      {
+        "id": 49,
+        "slug": "cbt",
+        "en_name": "Central Bank Of Egypt",
+        "ar_name": "المصرف المركزي المصري"
+      },
+      {
+        "id": 50,
+        "slug": "cbt2",
+        "en_name": "Central Bank Of Egypt 2",
+        "ar_name": "المصرف المركزي المصري 2"
+      },
+      {
+        "id": 51,
+        "slug": "midb",
+        "en_name": "Misr Iran Development Bank",
+        "ar_name": "بنك مصر إيران للتنمية"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "en_name": "Iraq",
+    "ar_name": "العراق",
+    "banks": [
+      {
+        "id": 1,
+        "slug": "ir_adib",
+        "en_name": "Abu Dhabi Islamic Bank",
+        "ar_name": "مصرف أبو ظبي الاسلامي"
+      },
+      {
+        "id": 2,
+        "slug": "ir_ind",
+        "en_name": "Industrial Bank",
+        "ar_name": "المصرف الصناعي"
+      },
+      {
+        "id": 3,
+        "slug": "ir_raf",
+        "en_name": "Rafidain Bank",
+        "ar_name": "مصرف الرافدين"
+      },
+      {
+        "id": 4,
+        "slug": "ir_rash",
+        "en_name": "Rasheed Bank",
+        "ar_name": "مصرف الرشيد"
+      },
+      {
+        "id": 5,
+        "slug": "taif",
+        "en_name": "Altaif Islamic Bank",
+        "ar_name": "مصرف الطيف الإسلامي"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "en_name": "Syria",
+    "ar_name": "سوريا",
+    "banks": [
+      {
+        "id": 1,
+        "slug": "siib",
+        "en_name": "Syria International Islamic Bank",
+        "ar_name": "بنك سوريا الدولي الإسلامي"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "en_name": "Bahrain",
+    "ar_name": "البحرين",
+    "banks": [
+      {
+        "id": 1,
+        "slug": "ithmr",
+        "en_name": "Ithmaar Bank",
+        "ar_name": "بنك الإثمار"
+      },
+      {
+        "id": 2,
+        "slug": "ahli7",
+        "en_name": "Ahli United Bank",
+        "ar_name": "البنك الأهلي المتحد"
+      },
+      {
+        "id": 3,
+        "slug": "bbk",
+        "en_name": "Bank of Bahrain and Kuwait",
+        "ar_name": "بنك البحرين والكويت"
+      },
+      {
+        "id": 4,
+        "slug": "bdb",
+        "en_name": "Bahrain Development Bank",
+        "ar_name": "بنك البحرين للتنمية"
+      },
+      {
+        "id": 5,
+        "slug": "brka4",
+        "en_name": "Al Baraka Bank",
+        "ar_name": "بنك البركة"
+      },
+      {
+        "id": 6,
+        "slug": "kfh2",
+        "en_name": "Kuwait Finance House",
+        "ar_name": "بيت التمويل الكويتي"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "en_name": "Libya",
+    "ar_name": "ليبيا",
+    "banks": [
+      {
+        "id": 1,
+        "slug": "lib",
+        "en_name": "Libya Islamic-Company",
+        "ar_name": "المصرف الاسلامي الليبي-شركات"
+      },
+      {
+        "id": 2,
+        "slug": "lib2",
+        "en_name": "Libya Islamic-personal",
+        "ar_name": "المصرف الاسلامي الليبي-أفراد"
+      },
+      {
+        "id": 3,
+        "slug": "jum",
+        "en_name": "Jumhouria Bank-personal",
+        "ar_name": "مصرف الجمهورية-أفراد"
+      },
+      {
+        "id": 4,
+        "slug": "jum2",
+        "en_name": "Jumhouria Bank-Company",
+        "ar_name": "مصرف الجمهورية-شركات"
+      },
+      {
+        "id": 5,
+        "slug": "waha",
+        "en_name": "Al Waha Bank-personal",
+        "ar_name": "مصرف الواحة-أفراد"
+      },
+      {
+        "id": 6,
+        "slug": "ubb",
+        "en_name": "United Bank For Com&Inv",
+        "ar_name": "المصرف المتحد للتجارة والاستثمار"
+      },
+      {
+        "id": 7,
+        "slug": "nab",
+        "en_name": "North Africa Bank",
+        "ar_name": "مصرف شمال افريقيا"
+      },
+      {
+        "id": 8,
+        "slug": "bcd",
+        "en_name": "Bank of Commerce and Development",
+        "ar_name": "مصرف التجارة والتنمية"
+      },
+      {
+        "id": 9,
+        "slug": "yaq",
+        "en_name": "Yaqeen Bank",
+        "ar_name": "مصرف اليقين"
+      },
+      {
+        "id": 10,
+        "slug": "bnp2",
+        "en_name": "BNP Paribas Group",
+        "ar_name": "مصرف الصحارى"
+      },
+      {
+        "id": 11,
+        "slug": "bnp3",
+        "en_name": "BNP Paribas Group2",
+        "ar_name": "مصرف الصحارى2"
+      },
+      {
+        "id": 12,
+        "slug": "ncb2",
+        "en_name": "National Commercial Bank",
+        "ar_name": "المصرف التجاري الوطني"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "en_name": "Kuwait",
+    "ar_name": "الكويت",
+    "banks": [
+      {
+        "id": 1,
+        "slug": "bob",
+        "en_name": "Boubyan Bank-small form",
+        "ar_name": "بنك بوبيان - نموذج صغير"
+      },
+      {
+        "id": 2,
+        "slug": "bob3",
+        "en_name": "Boubyan Bank-big form",
+        "ar_name": "بنك بوبيان - نموذج كبير"
+      },
+      {
+        "id": 3,
+        "slug": "bob2",
+        "en_name": "Boubyan Bank2",
+        "ar_name": "بنك بوبيان2"
+      },
+      {
+        "id": 4,
+        "slug": "kfh",
+        "en_name": "Kuwait Finance House",
+        "ar_name": "بيت التمويل الكويتي"
+      },
+      {
+        "id": 5,
+        "slug": "kfh3",
+        "en_name": "Kuwait Finance House2",
+        "ar_name": "بيت التمويل الكويتي2"
+      },
+      {
+        "id": 6,
+        "slug": "nbk2",
+        "en_name": "National Bank of Kuwait",
+        "ar_name": "بنك الكويت الوطني"
+      },
+      {
+        "id": 7,
+        "slug": "nbk3",
+        "en_name": "National Bank of Kuwait 2",
+        "ar_name": "بنك الكويت الوطني 2"
+      },
+      {
+        "id": 8,
+        "slug": "nbk4",
+        "en_name": "National Bank of Kuwait 3",
+        "ar_name": "بنك الكويت الوطني 3"
+      },
+      {
+        "id": 9,
+        "slug": "cbk",
+        "en_name": "Commercial Bank of Kuwait",
+        "ar_name": "البنك التجاري الكويتي"
+      },
+      {
+        "id": 10,
+        "slug": "cbk2",
+        "en_name": "Commercial Bank of Kuwait2",
+        "ar_name": "البنك التجاري الكويتي2"
+      },
+      {
+        "id": 11,
+        "slug": "kib",
+        "en_name": "Kuwait International Bank",
+        "ar_name": "بنك الكويت الدولي"
+      },
+      {
+        "id": 12,
+        "slug": "ahli2",
+        "en_name": "ahli United Bank",
+        "ar_name": "البنك الأهلي المتحد"
+      },
+      {
+        "id": 13,
+        "slug": "ahli5",
+        "en_name": "ahli United Bank2",
+        "ar_name": "البنك الأهلي المتحد2"
+      },
+      {
+        "id": 14,
+        "slug": "abk",
+        "en_name": "Al Ahli Bank of Kuwait",
+        "ar_name": "البنك الأهلي الكويتي"
+      },
+      {
+        "id": 15,
+        "slug": "gulf",
+        "en_name": "Gulf Bank",
+        "ar_name": "بنك الخليج"
+      },
+      {
+        "id": 16,
+        "slug": "gulf2",
+        "en_name": "Gulf Bank2",
+        "ar_name": "بنك الخليج 2"
+      },
+      {
+        "id": 17,
+        "slug": "warba",
+        "en_name": "Warba Bank",
+        "ar_name": "بنك وربة"
+      },
+      {
+        "id": 18,
+        "slug": "warba2",
+        "en_name": "Warba Bank2",
+        "ar_name": "بنك وربة 2"
+      },
+      {
+        "id": 19,
+        "slug": "burg",
+        "en_name": "Burgan Bank",
+        "ar_name": "بنك برقان"
+      },
+      {
+        "id": 20,
+        "slug": "hsbc4",
+        "en_name": "HSBC Bank",
+        "ar_name": "بنك إتش إس بي سي"
+      },
+      {
+        "id": 21,
+        "slug": "ibk",
+        "en_name": "Industrial Bank of Kuwait",
+        "ar_name": "بنك الكويت الصناعي"
+      },
+      {
+        "id": 22,
+        "slug": "qnb4",
+        "en_name": "Qatar National Bank",
+        "ar_name": "بنك قطر الوطني"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "en_name": "Qatar",
+    "ar_name": "قطر",
+    "banks": [
+      {
+        "id": 1,
+        "slug": "doha",
+        "en_name": "Doha Bank",
+        "ar_name": "بنك الدوحة"
+      },
+      {
+        "id": 2,
+        "slug": "doha2",
+        "en_name": "Doha Bank2",
+        "ar_name": "بنك الدوحة 2"
+      },
+      {
+        "id": 3,
+        "slug": "qib",
+        "en_name": "Qatar Islamic Bank",
+        "ar_name": "مصرف قطر الاسلامي"
+      },
+      {
+        "id": 4,
+        "slug": "qib2",
+        "en_name": "Qatar Islamic Bank 2",
+        "ar_name": "مصرف قطر الاسلامي 2"
+      },
+      {
+        "id": 5,
+        "slug": "qib3",
+        "en_name": "Qatar Islamic Bank Tamayuz",
+        "ar_name": "مصرف قطر الاسلامي التميز"
+      },
+      {
+        "id": 6,
+        "slug": "qnb1",
+        "en_name": "Qatar National Bank 1",
+        "ar_name": "بنك قطر الوطني 1"
+      },
+      {
+        "id": 7,
+        "slug": "qnb2",
+        "en_name": "Qatar National Bank 2",
+        "ar_name": "بنك قطر الوطني 2"
+      },
+      {
+        "id": 8,
+        "slug": "cbq1",
+        "en_name": "Qatar Commercial Bank 1",
+        "ar_name": "البنك التجاري 1"
+      },
+      {
+        "id": 9,
+        "slug": "cbq2",
+        "en_name": "Qatar Commercial Bank 2",
+        "ar_name": "البنك التجاري 2"
+      },
+      {
+        "id": 10,
+        "slug": "qiib",
+        "en_name": "Qatar International Islamic bank",
+        "ar_name": "البنك الدولي الاسلامي"
+      },
+      {
+        "id": 11,
+        "slug": "ahli4",
+        "en_name": "Ahli bank",
+        "ar_name": "البنك الأهلي"
+      },
+      {
+        "id": 12,
+        "slug": "barw",
+        "en_name": "Barwa bank",
+        "ar_name": "بنك بروى"
+      },
+      {
+        "id": 13,
+        "slug": "arab3",
+        "en_name": "Arab bank",
+        "ar_name": "البنك العربي"
+      },
+      {
+        "id": 14,
+        "slug": "dukh",
+        "en_name": "dukhan bank",
+        "ar_name": "بنك دخان"
+      },
+      {
+        "id": 15,
+        "slug": "rayn",
+        "en_name": "Masraf Al Rayan",
+        "ar_name": "مصرف الريان"
+      },
+      {
+        "id": 16,
+        "slug": "hsbc5",
+        "en_name": "HSBC Bank",
+        "ar_name": "بنك إتش إس بي سي"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "en_name": "Morocco",
+    "ar_name": "المغرب",
+    "banks": [
+      {
+        "id": 1,
+        "slug": "cam",
+        "en_name": "Crédit agricole du Maroc",
+        "ar_name": "القرض الفلاحي للمغرب"
+      },
+      {
+        "id": 2,
+        "slug": "cih",
+        "en_name": "Crédit immobilier et hôtelier",
+        "ar_name": "القرض العقاري والسياحي"
+      },
+      {
+        "id": 3,
+        "slug": "brid",
+        "en_name": "Al Barid Bank",
+        "ar_name": "البريد بنك"
+      },
+      {
+        "id": 4,
+        "slug": "pop",
+        "en_name": "Banque Populaire",
+        "ar_name": "البنك الشعبي"
+      },
+      {
+        "id": 5,
+        "slug": "wafa2",
+        "en_name": "Attijariwafa Bank",
+        "ar_name": "التجاري وفا بنك"
+      },
+      {
+        "id": 6,
+        "slug": "mrc",
+        "en_name": "Credit du Maroc",
+        "ar_name": "مصرف المغرب"
+      },
+      {
+        "id": 7,
+        "slug": "bmce",
+        "en_name": "BMCE Bank",
+        "ar_name": "البنك المغربي للتجارة الخارجية لإفريقيا"
+      },
+      {
+        "id": 8,
+        "slug": "wafa3",
+        "en_name": "Attijariwafa Bank-Lettre",
+        "ar_name": "التجاري وفا بنك-كمبيالة"
+      },
+      {
+        "id": 9,
+        "slug": "soce2",
+        "en_name": "Societe Generale",
+        "ar_name": "الشركة العامة"
+      },
+      {
+        "id": 10,
+        "slug": "soce",
+        "en_name": "Societe Generale-Lettre",
+        "ar_name": "الشركة العامة-كمبيالة"
+      },
+      {
+        "id": 11,
+        "slug": "pop2",
+        "en_name": "Banque Populaire-Lettre",
+        "ar_name": "البنك الشعبي-كمبيالة"
+      },
+      {
+        "id": 12,
+        "slug": "bmce2",
+        "en_name": "BMCE Bank-Lettre",
+        "ar_name": "البنك المغربي للتجارة الخارجية لإفريقيا-كمبيالة"
+      },
+      {
+        "id": 13,
+        "slug": "cam2",
+        "en_name": "Crédit agricole du Maroc-Lettre",
+        "ar_name": "القرض الفلاحي للمغرب-كمبيالة"
+      },
+      {
+        "id": 14,
+        "slug": "tgur",
+        "en_name": "TRESORERIE GENERALE DU ROYAUME",
+        "ar_name": "الخزينة العامة للمملكة"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "en_name": "Yemen",
+    "ar_name": "اليمن",
+    "banks": [
+      {
+        "id": 1,
+        "slug": "cac",
+        "en_name": "Cooperative & Agr Credit Bank",
+        "ar_name": "بنك التسليف التعاوني والزراعي"
+      },
+      {
+        "id": 2,
+        "slug": "inch",
+        "en_name": "Reconstruction & Development Bank",
+        "ar_name": "بنك اليمن للانشاء والتعمير"
+      },
+      {
+        "id": 3,
+        "slug": "iby",
+        "en_name": "International Bank of Yemen",
+        "ar_name": "بنك اليمن الدولي"
+      },
+      {
+        "id": 4,
+        "slug": "ykb",
+        "en_name": "Yemen Kuwait Bank",
+        "ar_name": "بنك اليمن والكويت"
+      },
+      {
+        "id": 5,
+        "slug": "saba",
+        "en_name": "Saba Islamic Bank",
+        "ar_name": "بنك سبأ الاسلامي"
+      },
+      {
+        "id": 6,
+        "slug": "center2",
+        "en_name": "Central Bank of Yemen",
+        "ar_name": "البنك المركزي اليمني"
+      },
+      {
+        "id": 7,
+        "slug": "tadh",
+        "en_name": "Tadhamon Bank",
+        "ar_name": "بنك التضامن"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "en_name": "Oman",
+    "ar_name": "سلطة عمان",
+    "banks": [
+      {
+        "id": 1,
+        "slug": "sib",
+        "en_name": "Sohar International",
+        "ar_name": "صحار الدولي"
+      },
+      {
+        "id": 2,
+        "slug": "sib2",
+        "en_name": "Sohar International2",
+        "ar_name": "صحار الدولي2"
+      },
+      {
+        "id": 3,
+        "slug": "sib3",
+        "en_name": "Sohar International3",
+        "ar_name": "صحار الدولي3"
+      },
+      {
+        "id": 4,
+        "slug": "sib5",
+        "en_name": "Sohar Islamic",
+        "ar_name": "صحار الاسلامي"
+      },
+      {
+        "id": 5,
+        "slug": "hsbc3",
+        "en_name": "HSBC",
+        "ar_name": "بنك إتش إس بي سي"
+      },
+      {
+        "id": 6,
+        "slug": "ahli3",
+        "en_name": "Ahli Bank",
+        "ar_name": "بنك الأهلي"
+      },
+      {
+        "id": 7,
+        "slug": "ahli6",
+        "en_name": "Ahli Islamic Bank",
+        "ar_name": "الأهلي الاسلامي"
+      },
+      {
+        "id": 8,
+        "slug": "niz",
+        "en_name": "Bank Nizwa",
+        "ar_name": "بنك نزوى"
+      },
+      {
+        "id": 9,
+        "slug": "musc",
+        "en_name": "Bank Muscat",
+        "ar_name": "بنك مسقط"
+      },
+      {
+        "id": 10,
+        "slug": "musc2",
+        "en_name": "Bank Muscat 2",
+        "ar_name": "بنك مسقط 2"
+      },
+      {
+        "id": 11,
+        "slug": "musc3",
+        "en_name": "Bank Muscat 3",
+        "ar_name": "بنك مسقط 3"
+      },
+      {
+        "id": 12,
+        "slug": "dhof",
+        "en_name": "Bank Dhofar",
+        "ar_name": "بنك ظفار"
+      },
+      {
+        "id": 13,
+        "slug": "thfr",
+        "en_name": "Bank Dhofar2",
+        "ar_name": "بنك ظفار2"
+      },
+      {
+        "id": 14,
+        "slug": "oarb",
+        "en_name": "Oman Arab Bank",
+        "ar_name": "بنك عمان العربي"
+      },
+      {
+        "id": 15,
+        "slug": "nbo",
+        "en_name": "National Bank of Oman",
+        "ar_name": "البنك الوطني العماني"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "en_name": "Sudan",
+    "ar_name": "السودان",
+    "banks": [
+      {
+        "id": 1,
+        "slug": "slm",
+        "en_name": "Alsalam Bank",
+        "ar_name": "مصرف السلام"
+      },
+      {
+        "id": 2,
+        "slug": "sfb",
+        "en_name": "Sudanese Franch Bank",
+        "ar_name": "البنك السوداني الفرنسي"
+      },
+      {
+        "id": 3,
+        "slug": "glf",
+        "en_name": "Alkhaleej Bank",
+        "ar_name": "بنك الخليج"
+      },
+      {
+        "id": 4,
+        "slug": "khr",
+        "en_name": "Bank Of khartoum",
+        "ar_name": "بنك الخرطوم"
+      },
+      {
+        "id": 5,
+        "slug": "neel",
+        "en_name": "Alnile Bank",
+        "ar_name": "بنك النيل"
+      },
+      {
+        "id": 6,
+        "slug": "ssd",
+        "en_name": "Savings & Social Bank",
+        "ar_name": "مصرف الادخار والتنمية"
+      },
+      {
+        "id": 7,
+        "slug": "ssb",
+        "en_name": "Saudi Sudanese Bank",
+        "ar_name": "البنك السعودي السوداني"
+      },
+      {
+        "id": 8,
+        "slug": "fib2",
+        "en_name": "Faisal Islamic Bank",
+        "ar_name": "بنك فيصل الاسلامي"
+      },
+      {
+        "id": 9,
+        "slug": "edb2",
+        "en_name": "Export Development Bank",
+        "ar_name": "بنك تنمية الصادرات"
+      },
+      {
+        "id": 10,
+        "slug": "nbe2",
+        "en_name": "National Bank of Egypt",
+        "ar_name": "البنك الأهلي المصري"
+      },
+      {
+        "id": 11,
+        "slug": "fcb",
+        "en_name": "Farmer's Commercial Bank",
+        "ar_name": "مصرف المزارع التجاري"
+      },
+      {
+        "id": 12,
+        "slug": "onb",
+        "en_name": "Omdurman National Bank",
+        "ar_name": "بنك امدرمان الوطني"
+      },
+      {
+        "id": 13,
+        "slug": "wnb",
+        "en_name": "Workers National Bank",
+        "ar_name": "بنك العمال الوطني"
+      },
+      {
+        "id": 14,
+        "slug": "barq",
+        "en_name": "Al Baraqa Bank",
+        "ar_name": "بنك البركة"
+      },
+      {
+        "id": 15,
+        "slug": "ucb",
+        "en_name": "United Capital Bank",
+        "ar_name": "بنك المال المتحد"
+      },
+      {
+        "id": 16,
+        "slug": "jzjo",
+        "en_name": "Aljazeera Sudanese Jordanian Bank",
+        "ar_name": "بنك الجزيرة السوداني الأردني"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "en_name": "Algeria",
+    "ar_name": "الجزائر",
+    "banks": [
+      { "id": 1, "slug": "abc2", "en_name": "ABC Bank", "ar_name": "بنك ABC" },
+      {
+        "id": 2,
+        "slug": "alg",
+        "en_name": "Algerie Poste",
+        "ar_name": "بريد الجزائر"
+      },
+      {
+        "id": 3,
+        "slug": "bna",
+        "en_name": "Banque Nationale d'Algérie ",
+        "ar_name": "البنك الوطني الجزائري"
+      },
+      {
+        "id": 4,
+        "slug": "bna2",
+        "en_name": "Banque Nationale d'Algérie2",
+        "ar_name": "البنك الوطني الجزائري2"
+      },
+      {
+        "id": 5,
+        "slug": "bdl",
+        "en_name": "Banque de L'agriculture et du Developpement Rural ",
+        "ar_name": "بنك الفلاحة والتنمية الريفية"
+      },
+      {
+        "id": 6,
+        "slug": "sga",
+        "en_name": "Societe Generale Algerie",
+        "ar_name": "سوسيتي جنرال الجزائر"
+      },
+      {
+        "id": 7,
+        "slug": "cpa",
+        "en_name": "Credit Populaire D'Algerie",
+        "ar_name": "القرض الشعبي الجزائري"
+      },
+      {
+        "id": 8,
+        "slug": "bdl2",
+        "en_name": "Banque de Developpement Local",
+        "ar_name": "بنك التنمية المحلية"
+      },
+      {
+        "id": 9,
+        "slug": "bnp",
+        "en_name": "BNP Paribas El Djazaïr",
+        "ar_name": "بي إن بي باريبا"
+      },
+      {
+        "id": 10,
+        "slug": "hous",
+        "en_name": "Housing Bank Algeria",
+        "ar_name": "بنك الاسكان - الجزائر"
+      },
+      {
+        "id": 11,
+        "slug": "brka3",
+        "en_name": "Al Baraka Bank",
+        "ar_name": "بنك البركة - الجزائر"
+      },
+      {
+        "id": 12,
+        "slug": "slm2",
+        "en_name": "Al Salam Bank",
+        "ar_name": "بنك السلام"
+      },
+      {
+        "id": 13,
+        "slug": "gulf3",
+        "en_name": "Gulf Bank Algerie",
+        "ar_name": "بنك الخليج الجزائر"
+      },
+      {
+        "id": 14,
+        "slug": "cndp",
+        "en_name": "Caisse nationale d'epargne et de prevoyance",
+        "ar_name": "الصندوق الوطني للتوفير والاحتياط"
+      },
+      {
+        "id": 15,
+        "slug": "trst",
+        "en_name": "Trust Bank",
+        "ar_name": "بنك الثقة"
+      },
+      {
+        "id": 16,
+        "slug": "ntx",
+        "en_name": "Natixis Bank",
+        "ar_name": "بنك ناتيكسيس"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "en_name": "Tunisia",
+    "ar_name": "تونس",
+    "banks": [
+      {
+        "id": 1,
+        "slug": "biat",
+        "en_name": "Banque Internationale Arabe De Tunisie",
+        "ar_name": "بنك تونس العربي الدولي"
+      },
+      {
+        "id": 2,
+        "slug": "Attj",
+        "en_name": "Attijari Bank",
+        "ar_name": "التجاري بنك"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "en_name": "Djibouti",
+    "ar_name": "جيبوتي",
+    "banks": [
+      {
+        "id": 1,
+        "slug": "cac2",
+        "en_name": "Cooperative & Agr Credit Bank",
+        "ar_name": "بنك التسليف التعاوني والزراعي"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "en_name": "France",
+    "ar_name": "فرنسا",
+    "banks": [
+      {
+        "id": 1,
+        "slug": "bpop",
+        "en_name": "Banque Populaire",
+        "ar_name": "البنك الشعبي"
+      }
+    ]
+  }
+]
